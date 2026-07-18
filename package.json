@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && xcopy google9a93f6f686d88ddc.html dist\\ /Y",
+    "build": "tsc && vite build && cp google9a93f6f686d88ddc.html dist/",
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
